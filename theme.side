@@ -1,0 +1,290 @@
+{
+  "id": "9d60ae0d-ceb5-4717-a887-bb79fe261620",
+  "version": "2.0",
+  "name": "theme",
+  "url": "https://vk.com/friends",
+  "tests": [{
+    "id": "2f39d40d-52ee-4f86-8d65-3cafdcbc55ac",
+    "name": "vk_theme_dark",
+    "commands": [{
+      "id": "8ec30650-dec9-4abb-9414-8957cbe68d2d",
+      "comment": "",
+      "command": "open",
+      "target": "https://vk.com/settings",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f0585a4-5e5f-48f6-83ae-1e14e89c6722",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6749bbd8-55d6-4b6c-930f-18b88d9e1419",
+      "comment": "",
+      "command": "click",
+      "target": "css=.settings_labeled_text > .idd_wrap > .idd_selected_value",
+      "targets": [
+        ["css=.settings_labeled_text > .idd_wrap > .idd_selected_value", "css:finder"],
+        ["xpath=//div[@id='wide_column']/div/div[2]/div[2]/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e64c8cc1-cc42-4a02-be83-80be370e7776",
+      "comment": "",
+      "command": "click",
+      "target": "id=idd_item_dark",
+      "targets": [
+        ["id=idd_item_dark", "id"],
+        ["css=#idd_item_dark", "css:finder"],
+        ["xpath=//div[@id='idd_item_dark']", "xpath:attributes"],
+        ["xpath=//div[@id='idd_']/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60641dbc-a968-48ae-bfd5-76c2799059a3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Посмотреть заблокированные приложения",
+      "targets": [
+        ["linkText=Посмотреть заблокированные приложения", "linkText"],
+        ["css=.settings_link_row > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Посмотреть заблокированные приложения')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"showBox('al_apps.php', {act: 'blacklist_box', list: 'apps', height: lastWindowHeight}, {stat: ['privacy.css', jsc('web/indexer.js'), jsc('web/apps.js'), 'apps.css']});return false;\"]", "xpath:attributes"],
+        ["xpath=//div[@id='wide_column']/div/div[2]/div[4]/div[2]/div[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Посмотреть заблокированные приложения')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9cb68d36-4a80-4cd2-9364-ae724ecb4965",
+    "name": "vk_theme_light",
+    "commands": [{
+      "id": "c30b8a22-5faf-4e56-9bb9-f17514e9f8f2",
+      "comment": "",
+      "command": "open",
+      "target": "https://vk.com/settings",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c6811e4-6f34-4166-8d66-58986a2870f0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4bb52d6-069f-4981-b46d-e4c7954b63cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.settings_labeled_text > .idd_wrap > .idd_selected_value",
+      "targets": [
+        ["css=.settings_labeled_text > .idd_wrap > .idd_selected_value", "css:finder"],
+        ["xpath=//div[@id='wide_column']/div/div[2]/div[2]/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10081f5b-b743-4963-85fa-d6a82ce92f26",
+      "comment": "",
+      "command": "click",
+      "target": "css=#idd_item_light > .idd_item_name",
+      "targets": [
+        ["css=#idd_item_light > .idd_item_name", "css:finder"],
+        ["xpath=//div[@id='idd_item_light']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da7efdd4-060c-4527-92cc-bdd1901285e1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Посмотреть заблокированные приложения",
+      "targets": [
+        ["linkText=Посмотреть заблокированные приложения", "linkText"],
+        ["css=.settings_link_row > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Посмотреть заблокированные приложения')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"showBox('al_apps.php', {act: 'blacklist_box', list: 'apps', height: lastWindowHeight}, {stat: ['privacy.css', jsc('web/indexer.js'), jsc('web/apps.js'), 'apps.css']});return false;\"]", "xpath:attributes"],
+        ["xpath=//div[@id='wide_column']/div/div[2]/div[4]/div[2]/div[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Посмотреть заблокированные приложения')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a81e183b-54ba-4e91-b48a-2b68fbcb9ab2",
+    "name": "add_new_friend",
+    "commands": [{
+      "id": "253c667c-73e3-4b02-9ba1-4af59f628c18",
+      "comment": "",
+      "command": "open",
+      "target": "https://vk.com/friends",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95322a42-5776-4e42-8577-e2557d2fb6e1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e72aa916-e5f7-4202-b623-4c746225c294",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ui_rmenu_find > .ui_rmenu_item_label",
+      "targets": [
+        ["css=#ui_rmenu_find > .ui_rmenu_item_label", "css:finder"],
+        ["xpath=//a[@id='ui_rmenu_find']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/a[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Поиск друзей')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b472d56-d19a-43d8-bac6-a9f27e528c90",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#ui_rmenu_cleanup > .ui_rmenu_item_label",
+      "targets": [
+        ["css=#ui_rmenu_cleanup > .ui_rmenu_item_label", "css:finder"],
+        ["xpath=//a[@id='ui_rmenu_cleanup']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Мало взаимодействуете')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3280fe15-092f-4ad4-872e-54eb7a4186a9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#ui_rmenu_cleanup > .ui_rmenu_item_label",
+      "targets": [
+        ["css=#ui_rmenu_cleanup > .ui_rmenu_item_label", "css:finder"],
+        ["xpath=//a[@id='ui_rmenu_cleanup']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Мало взаимодействуете')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52ee322e-94e5-49c7-ad9a-8d1d409b1a34",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ui_rmenu_cleanup",
+      "targets": [
+        ["id=ui_rmenu_cleanup", "id"],
+        ["linkText=Мало взаимодействуете", "linkText"],
+        ["css=#ui_rmenu_cleanup", "css:finder"],
+        ["xpath=//a[@id='ui_rmenu_cleanup']", "xpath:attributes"],
+        ["xpath=//div[@id='narrow_column']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/friends?section=cleanup')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Мало взаимодействуете')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "958079fe-16ef-4968-bc6d-320ede625812",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=ui_rmenu_cleanup",
+      "targets": [
+        ["id=ui_rmenu_cleanup", "id"],
+        ["linkText=Мало взаимодействуете", "linkText"],
+        ["css=#ui_rmenu_cleanup", "css:finder"],
+        ["xpath=//a[@id='ui_rmenu_cleanup']", "xpath:attributes"],
+        ["xpath=//div[@id='narrow_column']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/friends?section=cleanup')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Мало взаимодействуете')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4c16566-d6eb-458a-8698-4ea3e580e068",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//div[@id='search_query_wrap']/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf205536-2d09-472d-974c-cf482668aa22",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ui_search_reset_button",
+      "targets": [
+        ["css=.ui_search_reset_button", "css:finder"],
+        ["xpath=//button[@onclick='return uiSearch.reset(this, false, event);']", "xpath:attributes"],
+        ["xpath=//div[@id='search_query_wrap']/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "302138fd-0e76-4557-8341-ac7e0bc67ec0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ui_search_reset_button",
+      "targets": [
+        ["css=.ui_search_reset_button", "css:finder"],
+        ["xpath=//button[@onclick='return uiSearch.reset(this, false, event);']", "xpath:attributes"],
+        ["xpath=//div[@id='search_query_wrap']/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c693868-e69c-4096-aadc-b383070021e4",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//div[@id='search_query_wrap']/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/form/input", "xpath:position"]
+      ],
+      "value": "павел дуров"
+    }, {
+      "id": "b3a59e6e-4589-47d6-991c-da0452b3799a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui_search_button_search > svg",
+      "targets": [
+        ["css=.ui_search_button_search > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4647e2b6-1df3-4064-9687-2b03b95d9de8",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_sub1",
+      "targets": [
+        ["id=search_sub1", "id"],
+        ["css=#search_sub1", "css:finder"],
+        ["xpath=//button[@id='search_sub1']", "xpath:attributes"],
+        ["xpath=//div[@id='results']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подписаться')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4ae71f8d-c365-44c0-8e7d-8570c09ce468",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2f39d40d-52ee-4f86-8d65-3cafdcbc55ac", "9cb68d36-4a80-4cd2-9364-ae724ecb4965", "a81e183b-54ba-4e91-b48a-2b68fbcb9ab2"]
+  }],
+  "urls": ["https://vk.com/ashexcellence", "https://vk.com/settings", "https://vk.com/friends"],
+  "plugins": []
+}
